@@ -8,7 +8,7 @@ personagens.forEach((personagem) => {
 
     personagem.classList.add("selecionado");
     const personagemSelecionado = document.querySelector(".selecionado");
-    personagemSelecionado.classList.remove("selecionado");
+    personagemSelecionado.classList.remove(".selecionado");
 
     personagem.classList.add("selecionado");
 
